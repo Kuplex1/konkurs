@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Kazky</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header id="header" class="header">
+            <div class="header__container _container">
+                <a href="index.html" class="header__logo">
+                    KAZKY
+                </a>
+                <nav class="header__menu menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="index.html" class="menu__link">Головна</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#about" class="menu__link">Про сайт</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#authors" class="menu__link">Автори</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main id="main" class="main">
+            <div class="page__main-block main-block">
+                <div class="main-block__container _container">
+                    <div class="main-block__body">
+                        <h1 class="main-block__title">Найкращий казковий світ</h1>
+                    </div>
+                </div>
+                <div class="main-block__image _ibg">
+                    <img src="./img/main-bg.jpg" alt="cover">
+                </div>
+            </div>
+            <section id="about" class="about">
+                <div class="page__about-block about-block">
+                    <div class="about-block__container _container">
+                        <h2 class="about-block__title">Про сайт</h2>
+                        <p class="about-block__text">Цей сайт розповідає про відомих авторів, які написали чудові казки, відомі на увесь світ. 
+                            Ви зможете ознайомитись з біографією письменника і прослухати його казку. Цей сайт спрямований на усі види 
+                            аудіторії(на дітей і на дорослих).</p>
+                    </div>
+                </div>
+            </section>
+            <section id="authors" class="authors">
+                <div class="page__authors-block authors-block">
+                    <div class="authors-block__container _container">
+                        <h3 class="authors-block__title">Автори</h3>
+                        <div class="authors-card__block">
+
+                            <div onclick="location.href='./authors/author1.html'" class="card">
+                                <img class="card__author-img" src="./img/card/author1.jpg" alt="">
+                                <h4 class="author-name">Ганс Крістіан Андерсен</h4>
+                            </div>
+
+                            <div onclick="location.href='./authors/author2.html'" class="card">
+                                <img class="card__author-img" src="./img/card/author2.jpg" alt="">
+                                <h4 class="author-name">Брати Грімм</h4>
+                            </div>
+
+                            <div onclick="location.href='./authors/author3.html'" class="card">
+                                <img class="card__author-img" src="./img/card/author3.jpg" alt="">
+                                <h4 class="author-name">Шарль Перро</h4>
+                            </div>
+
+                            <div onclick="location.href='./authors/author4.html'" class="card">
+                                <img class="card__author-img" src="./img/card/author4.jpg" alt="">
+                                <h4 class="author-name">Іван Франко</h4>
+                            </div>
+
+                            <div onclick="location.href='./authors/author5.html'" class="card">
+                                <img class="card__author-img" src="./img/card/author5.jpg" alt="">
+                                <h4 class="author-name">Вільгельм Гауфф</h4>
+                            </div>
+
+                            <div onclick="location.href='./authors/author6.html'" class="card">
+                                <img class="card__author-img" src="./img/card/author6.jpg" alt="">
+                                <h4 class="author-name">Олександр Олесь</h4>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        
+
+    </div>
+    <script src="./script/script.js"></script>
+</body>
+</html>
